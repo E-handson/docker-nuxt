@@ -5,5 +5,5 @@ ENV HOST 0.0.0.0
 
 # コマンド実行
 RUN apk update && \
-    apk add git && \
+    apk add git python3 && \
     npm install -g @vue/cli nuxt create-nuxt-app
